@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Vazir';
-    src: url('/fonts/Vazir.woff2') format('woff2'),
-         url('/fonts/Vazir.woff') format('woff');
+    src: url('/static/fonts/Vazir.woff2') format('woff2'),
+         url('/static/fonts/Vazir.woff') format('woff');
 }
 
 body {

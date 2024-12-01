@@ -3,6 +3,11 @@
     src: url('/static/fonts/IranNastaliq.ttf') format('ttf'),
 }
 
+form {
+    margin: auto;
+     width: -moz-available;
+}
+
 .title {
     font-family: 'Nastaliq' !important;
     font-size: 36px;
@@ -12,7 +17,7 @@
 }
 
 .col-8 {
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-bottom: 20vh;
 }
 

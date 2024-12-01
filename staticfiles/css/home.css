@@ -1,20 +1,74 @@
-.entry {
-    color: #AE6A0B !important;
-    direction: rtl;   
-    height: 8vh;
-    font-size: 4vh;
+@font-face {
+    font-family: 'Nastaliq';
+    src: url('/static/fonts/IranNastaliq.ttf') format('ttf'),
+}
+
+form {
+    margin: auto;
+     width: -moz-available;
 }
 
 .title {
-    font-family: 'Vazirmatn', sans-serif; /* فونت فارسی مناسب */
+    font-family: 'Nastaliq' !important;
     font-size: 36px;
-    color: #C91D11; /* نارنجی مایل به قرمز */
+    color: #C91D11; 
     text-align: center;
     margin-top: 20px;
 }
 
+.col-8 {
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
 
-.search-box{
-    padding-top: 15vh;
-    
+.search-box {
+    border: 2px solid #AE6A0B; 
+    border-radius: 25px;
+    display: flex;
+    padding: 6px 8px;
+    align-items: center;
+    box-shadow: 0 6px 8px rgba(99, 96, 96, 0.1);
+    transition: all 0.3s ease;
+    &:hover{
+        transform: scale(1.05);
+
+    }
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 4vh;
+    padding: 5px;
+
+    color: #AE6A0B !important;
+    direction: rtl;   
+
+   
+}
+
+.search-button {
+    background-color: #D99058;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+        
+    &:hover {
+        transform: scale(1.1);
+        background-color: #C37237; 
+    }
+}
+
+.persian-blue {
+    background-color: #C5D5D0 !important;
+}
+
+.st {
+    direction: rtl;
+    color: #42504C;
 }
